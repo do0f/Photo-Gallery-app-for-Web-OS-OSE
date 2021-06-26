@@ -3,9 +3,6 @@
 #include <QQmlContext>
 #include <QString>
 #include <QDebug>
-#include "ImageViewier.h"
-#include "PhotoContainers.h"
-
 
 int main(int argc, char *argv[])
 {
