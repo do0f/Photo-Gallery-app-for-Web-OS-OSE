@@ -20,12 +20,10 @@ int main(int argc, char *argv[])
             QCoreApplication::exit(-1);
     }, Qt::QueuedConnection);
 
-    //"file:///home/doof/Pictures/images2/VG_100K_2"
+    //getting default path: application directory
     auto path = QString("file://") + qApp->applicationDirPath();
-    qDebug() << path;
-
     auto context = engine.rootContext();
-    context->setContextProperty("_picturesFolder", "file:///home/doof/Pictures/images2/VG_100K_2");
+    context->setContextProperty("_picturesFolder", path);
 
     engine.load(url);
 
