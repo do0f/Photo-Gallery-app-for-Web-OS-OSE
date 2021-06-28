@@ -1,0 +1,10 @@
+{
+    "id": "com.photogallery.app.qml",
+    "version": "1.0.0",
+    "vendor": "My Company",
+    "type": "qml",
+    "main": "main.qml",
+    "title": "Photo Gallery",
+    "icon": "icon.png",
+    "requiredPermissions" : ["time.query", "application.operation"]
+}
